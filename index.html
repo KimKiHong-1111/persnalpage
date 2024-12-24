@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김기홍 (KimKiHong)</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/img/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <main id="app">
+      <section class="section-intro">
+        <header id="header">
+          <h1 class="txt-invisible">Portfolio</h1>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#about" class="list-link">Profile</a></li>
+              <li><a href="#contact" class="list-link">Contact</a></li>
+              <li>
+                <a
+                  href="https://github.com/HyeRrin/portfolio"
+                  class="list-link btn-code"
+                  >code</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="bar-bg">
+            <span class="bar-ing"></span>
+          </div>
+        </header>
+
+        <div class="cont-intro">
+          <a name="info"></a>
+          <img src="src/img/11zon_cropped.png" alt="프로필 이미지" />
+          <div>
+            <p class="txt-title"></p>
+            <a href="#about" class="btn-more">More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about">
+        <a name="about"></a>
+        <h2>Profile</h2>
+        <div class="cont-about">
+          <div class="slide-container">
+              <div class="slide-images">
+                <img src="src/img/img-me.jpg"/>
+              </div>
+          </div>
+          <div class="info-about">
+            <dl class="txt-about">
+              <div>
+                <dt>이름</dt>
+                <dd>김기홍</dd>
+              </div>
+              <div>
+                <dt>생년월일</dt>
+                <dd>93.11.11</dd>
+              </div>
+              <div>
+                <dt>거주지</dt>
+                <dd>대구광역시</dd>
+              </div>
+              <div>
+                <dt>MBTI</dt>
+                <dd>ENFJ</dd>
+              </div>
+              <div>
+                <dt>장점</dt>
+                <dd>의사소통을 잘함/책임감이 있다/도전하는것을 두려워하지않음</dd>
+              </div>
+              <div>
+                <dt>성격</dt>
+                <dd>긍정적,호기심많음</dd>
+              </div>
+              <div>
+                <dt>취미</dt>
+                <dd>주짓수(과거),여행</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <a name="contact"></a>
+        <div class="box-footer">
+          <h2>Contact.</h2>
+          <ul class="link-sns">
+            <li>
+              <a href="https://github.com/KimKiHong-1111"
+                ><img
+                  class="img-github"
+                  src="src/img/icon-github.png"
+                  alt="깃허브 주소"
+                />github</a
+              >
+            </li>
+            <li>
+              <a href="https://velog.io/@rlghd7979/posts"
+                ><img
+                  class="img-velog"
+                  src="src/img/icon-velog.png"
+                  alt="블로그 주소"
+                />Blog</a
+              >
+            </li>
+          </ul>
+          <p>© 2024 - KiHong</p>
+        </div>
+      </footer>
+      <button onclick="moveToTop()" class="btn-moveTop"></button>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
